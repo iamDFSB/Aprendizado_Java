@@ -32,7 +32,7 @@ public class sequencias {
         // ----------------------------------------------------------------------------------------
 
         // Vendo a posição do index
-        System.out.printf("Posição do 'Daniel' na variavel é: %d",sobrenome.indexOf("Fer"));
+        System.out.printf("Posição do 'Fer' na variavel é: %d",nome2.indexOf("Fer"));
 
         // ----------------------------------------------------------------------------------------
 
