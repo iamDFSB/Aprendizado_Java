@@ -5,7 +5,11 @@ public class condition {
         // Decisões if else, switch case e if one-line
 
         String nome = "Daniel";
-        int num = 1;
+        // Casting
+        double num_double = 1.0d;
+        // Estreitando cating 
+        int num = (int) num_double;
+
 
         // if normal
         if (nome == "ner") {
