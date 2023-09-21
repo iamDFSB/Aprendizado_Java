@@ -1,7 +1,5 @@
 package aula10_static;
 
-
-
 public class Gamer {
     static int nota = 0;
 
@@ -10,7 +8,13 @@ public class Gamer {
        int resposta = Math.max(2,3);
        System.out.println(resposta); 
     }
+    
     public static int soma(int x, int y){
         return x+y;
     }
+    
+    protected static void greeting(){
+        System.out.println("Hello");
+    }
 }
+
