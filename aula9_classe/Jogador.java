@@ -26,12 +26,12 @@ public class Jogador {
         }
     }
 
-    // Aplicando o método Get em variáveis privadas
+    // Aplicando o método Get em variáveis privadas:
     public int getVidas() {
         return this.vidas;
     }
 
-    // Aplicando o método Set em variáveis privadas
+    // Aplicando o método Set em variáveis privadas:
     public void setVidas(int vida_nova){
 
         if(vida_nova > 10 || vida_nova < 0){
