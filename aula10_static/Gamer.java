@@ -10,7 +10,7 @@ public class Gamer {
        System.out.printf("Seu nome é %s\n",nome);
     }
     
-    public static int soma(int x, int y){
+    public int soma(int x, int y){
         return x+y;
     }
     

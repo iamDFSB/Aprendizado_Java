@@ -13,5 +13,9 @@ public class Herdar extends Gamer{
             // Chamando pelo import 
             greeting();
     }
+    public String sayhello(){
+        String greet = "Hello";
+        return greet;
+    }
 }
 
