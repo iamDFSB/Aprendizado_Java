@@ -8,8 +8,9 @@ package aula13_calculadora;
 import java.util.Scanner;
 
 public class Main_calculadora {
+    static Scanner scan = new Scanner(System.in);
     public static int[] questions(){
-        Scanner scan = new Scanner(System.in);
+        
         // Definindo o primeiro valor:
         System.out.print("Determine o primeiro numero: ");
         int n1 = scan.nextInt();
@@ -21,7 +22,7 @@ public class Main_calculadora {
         // Definindo a operação:
         System.out.println("soma[1], mult[2], divi[3] ou sub[4]: ");
         int oper = scan.nextInt();
-        scan.close();
+        
 
         int[] numbers = {n1,n2,oper};
 
@@ -35,7 +36,8 @@ public class Main_calculadora {
 
     public static void main(String[] args) {
         int i = 0; 
-        while(i==3){
+        
+        while(i!=3){
             int[] exec = questions();
             int n1 = exec[0];
             int n2 = exec[1];
@@ -43,17 +45,18 @@ public class Main_calculadora {
 
             switch (oper) {
                 case 1:
-                    pergunta_soma(n1, n2);
+                    System.out.println(pergunta_soma(n1, n2));
+                    i=3;
                     break;
             
                 default:
                     System.out.println("Essa não existe");
+                    i+=1;
                     break;
                 }
-            i+=1;
-         
         
             }  
+           
     }
 }
  
