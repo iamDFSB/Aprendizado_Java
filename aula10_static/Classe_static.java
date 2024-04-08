@@ -1,16 +1,15 @@
 package aula10_static;
 
-
-public class Classe_static {
+public class Classe_static{
 
     public static void main(String[] args) {
-        // Gamer objeto = new Gamer();
+        Gamer objeto = new Gamer("Daniel");
 
         // Utilizando chamada de função com static, (não precisa declarar objeto pra chamar)
-        // int resposta = Gamer.soma(2,3);
-        // System.out.println(resposta);
-        // System.out.println(objeto);
-        // System.out.printf("Sua nota é %d",Gamer.nota);
+        int resposta = Gamer.soma(2,3);
+        System.out.println(resposta);
+        System.out.println(objeto);
+        System.out.printf("Sua nota é %d\n",Gamer.nota);
 
         // double resposta_f = 0.5725843272778209d;
 
